@@ -1,0 +1,106 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat&family=Quicksand:wght@500&family=Rubik+Dirt&display=swap');
+
+/* Barra de navegacion */
+.navbar{
+    padding: 1rem;
+    background-color: #f5f6f7;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilos generales */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', cursive;
+    color: #468494;
+}
+
+.seccion-oscura{
+    color: white;
+    background-color: #468494;
+}
+
+.seccion-clara{
+    color: black;
+    background-color: white;
+}
+
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive;
+    color: #468494;
+}
+
+.seccion-descripcion{
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+
+.seccion-texto{
+    font-size: 1.2rem;
+}
+
+.btn-info{
+    font-size: 1.1rem;
+    /* margin: 20px; */
+    color: white;
+    background-color: #bd88ab;
+    border-color: #bd88ab;
+}
+
+.btn-info:hover{
+    color: white;
+    background-color: #ecbedd;
+    border-color: #ecbedd;
+}
+
+.texto-blanco{
+    color: white;
+}
+
+
+
+/* Footer */
+footer{
+    min-height: 220px;
+}
+
+.footer-logo{
+    height: 100px;
+    width: 130px;
+    margin: 10px;
+}
+
+.footer-texto{
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.derechos-de-autor{
+    font-size: 15px;
+}
+
+/* Adaptable - Responsivo */
+@media screen and (max-width: 767px){
+    .navbar-brand{
+        display:none;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .hero-inferior-imagen {
+        max-width: 600px;
+    }
+}
