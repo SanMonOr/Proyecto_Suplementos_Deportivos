@@ -9,7 +9,7 @@
 
 .navbar-collapse{
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between;*/
 }
 
 /* Estilos generales */
@@ -19,7 +19,7 @@ body{
 }
 
 h1{
-    font-size: 2.5rem;
+    font-size: 3.0rem;
     font-family: 'Rubik Dirt', cursive;
     color: #468494;
 }
@@ -35,7 +35,7 @@ h1{
 }
 
 .seccion-titulo{
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding: 15px 0;
     font-family: 'Rubik Dirt', cursive;
     color: #468494;
@@ -93,12 +93,12 @@ h1{
 
 /* seccion sobre nosotros */
 .sobre-nosotros{
-    height: 400px;
+    height: 350px;
     padding: 10px;
 }
 
 .sobre-nosotros .container{
-    max-width: 600px;
+    max-width: 900px;
 }
 
 /* Integrantes */
@@ -156,6 +156,48 @@ h1{
     font-weight: bold;
     color: #468494;
 }
+
+
+/*Planteamiento del problema*/
+#planteamiento .seccion-texto {
+    text-align: left; 
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+  }
+
+/*Fin planteamiento del problema*/
+
+
+
+/*Objetivos*/
+
+.objetivos-generales{
+    text-align: left; 
+}
+
+.objetivos-generales .integrantes-titulo{
+    color:#468494;
+}
+
+.objetivos-especificos{
+    text-align: left; 
+}
+
+.objetivos-especificos .integrantes-titulo{
+    color:#468494;
+}
+
+/*Fin objetivos*/
+
+/*Alcance */
+
+.seccion-alcance .seccion-texto{
+    text-align: justify;
+    padding-bottom: 80px;
+}
+
+/* Fin Alcance */
 
 /* Footer */
 footer{
