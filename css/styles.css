@@ -1,0 +1,193 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat&family=Quicksand:wght@500&family=Rubik+Dirt&display=swap');
+
+/* Barra de navegacion */
+.navbar{
+    padding: 1rem;
+    background-color: #f5f6f7;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilos generales */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', cursive;
+    color: #468494;
+}
+
+.seccion-oscura{
+    color: white;
+    background-color: #468494;
+}
+
+.seccion-clara{
+    color: black;
+    background-color: white;
+}
+
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive;
+    color: #468494;
+}
+
+.seccion-descripcion{
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+
+.seccion-texto{
+    font-size: 1.2rem;
+}
+
+.btn-info{
+    font-size: 1.1rem;
+    /* margin: 20px; */
+    color: white;
+    background-color: #bd88ab;
+    border-color: #bd88ab;
+}
+
+.btn-info:hover{
+    color: white;
+    background-color: #ecbedd;
+    border-color: #ecbedd;
+}
+
+.texto-blanco{
+    color: white;
+}
+
+
+/* Seccion principal */
+.hero{
+    background-color: #f5f6f7;
+    min-height: 450px; 
+    text-align: center;
+}
+
+.hero-principal{
+    padding: 1rem;
+}
+
+.hero-principal h2{
+    font-size: 1.5rem;
+    color: #615151;
+}
+
+.hero-inferior-imagen{
+    margin-bottom: -3rem; 
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+
+/* seccion sobre nosotros */
+.sobre-nosotros{
+    height: 400px;
+    padding: 10px;
+}
+
+.sobre-nosotros .container{
+    max-width: 600px;
+}
+
+/* Integrantes */
+.integrantes{
+    padding: 60px 40px 40px 40px;
+}
+
+.integrantes .columna{
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+
+.integrantes .columna:hover{
+    color: white;
+    background-color: #468494;
+}
+
+.integrantes .container i{
+    font-size: 2.5rem;
+    color: #ecbedd;
+    background-color: #bd88ab;
+    padding: 18px 19px;
+    border-radius: 50%;
+}
+.integrantes-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.integrantes-foto{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+
+/* Cursos */
+.cursos {
+    min-height: 500px;
+    padding: 15px;
+}
+
+.cursos .card {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.cursos .card-header {
+    font-weight: bold;
+    color: #468494;
+}
+
+/* Footer */
+footer{
+    min-height: 220px;
+}
+
+.footer-logo{
+    height: 100px;
+    width: 130px;
+    margin: 10px;
+}
+
+.footer-texto{
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.derechos-de-autor{
+    font-size: 15px;
+}
+
+/* Adaptable - Responsivo */
+@media screen and (max-width: 767px){
+    .navbar-brand{
+        display:none;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .hero-inferior-imagen {
+        max-width: 600px;
+    }
+}
