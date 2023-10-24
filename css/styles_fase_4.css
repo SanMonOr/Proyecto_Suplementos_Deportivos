@@ -29,67 +29,304 @@ h1{
     background-color: #468494;
 }
 
-.seccion-clara{
-    color: black;
-    background-color: white;
-}
+
 
 .seccion-titulo{
     font-size: 2rem;
-    padding: 15px 0;
+    padding: 150px;
     font-family: 'Rubik Dirt', cursive;
     color: #468494;
+    text-transform: uppercase;
 }
+
 
 .seccion-descripcion{
     font-size: 1.2rem;
     color: #584e4e;
+
 }
 
 .seccion-texto{
     font-size: 1.2rem;
 }
 
-.btn-info{
-    font-size: 1.1rem;
-    /* margin: 20px; */
-    color: white;
-    background-color: #bd88ab;
-    border-color: #bd88ab;
+ /*sesiones, roles y permisos */
+div.container.text-center{
+    margin-top: 20px;
+    margin: 20px;
 }
 
-.btn-info:hover{
-    color: white;
-    background-color: #ecbedd;
-    border-color: #ecbedd;
+h1.seccion-titulo{
+    padding: 20px;
+    margin-top: 100px;
+    border-bottom: 2px solid #468494;
 }
 
-.texto-blanco{
-    color: white;
+h3.seccion-subtitulo{
+    margin-top: 50px;
+    color:#468494;
+    text-align: left;
+    font-weight: bold;
 }
 
+p.seccion-parrafo{
+    text-align: left;
+    border: 0.01px solid #d8e7ea;
+    padding: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+
+img.img-1{
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 1050px; 
+    height: auto;
+}
+
+h5.creacion-usuarios{
+    margin-top: 50px;
+    color:#468494;
+    text-align: left;
+    font-weight: bold;
+    width: 1050px; 
+    height: auto;
+}
+
+img.rol-1{
+    width: 100%; 
+    max-width: 100%; 
+    border: 1px solid #468494; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 1050px; 
+    height: auto; 
+}
+
+img.privilegios{
+    margin-top: 40px;
+    width: 100%; 
+    max-width: 100%; 
+    border: 1px solid #468494; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 1050px; 
+    height: auto;
+}
+
+img.privilegios-2{
+    margin-top: 40px;
+    width: 100%; 
+    max-width: 100%; 
+    border: 1px solid #468494; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 500px; 
+    height: auto;
+}
+
+/*Fin sesiones, roles, permisos*/
+
+ /*Interfaz grafica */
+h1.seccion-titulo2{
+    padding: 20px;
+    margin-top: 5px;
+    border-bottom: 2px solid #468494;
+}
+
+p.seccion-parrafo2{
+    text-align: left;
+    border: 0.01px solid #d8e7ea;
+    padding: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+
+h3.seccion-subtitulo2{
+    margin-top: 30px;
+    color:#468494;
+    text-align: left;
+    font-weight: bold;
+}
+
+img.paginadeinicio{
+    margin-top: 30px;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 1050px; 
+    height: auto;
+}
+
+h3.catalogo{
+    margin-top: 30px;
+    color:#468494;
+    text-align: left;
+    font-weight: bold;
+}
+
+img.catalogo_proteinas{
+    margin-top: 30px;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 1050px; 
+    height: auto;
+}
+
+h3.perfil{
+    margin-top: 30px;
+    color:#468494;
+    text-align: left;
+    font-weight: bold;
+}
+
+img.cuenta{
+    margin-top: 30px;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 1050px; 
+    height: auto;
+}
+
+/*Fin de interfaz grafica*/
+
+
+/*Seccion Reportes excel*/
+h1.seccion-titulo3{
+    padding: 20px;
+    margin-top: 100px;
+    border-bottom: 2px solid #468494;
+}
+
+p.seccion-parrafo3{
+    text-align: left;
+    border: 0.01px solid #d8e7ea;
+    padding: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+
+img.reporte{
+    margin-top: 30px;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 1050px; 
+    height: auto;
+}
+
+h5.ejemplo{
+    margin-top: 50px;
+    color:#468494;
+    text-align: left;
+    font-weight: bold;
+    width: 1050px; 
+    height: auto;
+}
+
+img.reporte_usuarios{
+    margin-top: 30px;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 1050px; 
+    height: auto;
+}
+
+/*Fin Seccion Reportes excel*/
+
+/*Consultas multicriterio*/
+
+h1.seccion-titulo4{
+    padding: 20px;
+    margin-top: 100px;
+    border-bottom: 2px solid #468494;
+}
+
+p.parrafo-consulta{
+    text-align: left;
+    border: 0.01px solid #d8e7ea;
+    padding: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+
+img.filtro{
+    margin-top: 30px;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 1050px; 
+    height: auto;
+}
+
+/*Fin seccion consultas multicriterio*/
+
+h1.seccion-titulo_encriptacion{
+    padding: 20px;
+    margin-top: 100px;
+    border-bottom: 2px solid #468494;
+}
+
+p.parrafo-encriptacion{
+    text-align: left;
+    border: 0.01px solid #d8e7ea;
+    padding: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+
+img.encriptacion{
+    margin-top: 30px;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 1050px; 
+    height: auto;
+}
+
+h5.encriptacion{
+    margin-top: 50px;
+    color:#468494;
+    text-align: left;
+    font-weight: bold;
+    width: 1050px; 
+    height: auto;
+}
+
+img.bd_encriptacion{
+    margin-top: 30px;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 1050px; 
+    height: auto;
+}
 
 
 /* Footer */
 footer{
-    min-height: 220px;
+    min-height: 100px;
 }
 
 .footer-logo{
-    height: 100px;
-    width: 130px;
+    height: 60px;
+    width: 80px;
     margin: 10px;
 }
 
 .footer-texto{
     font-size: 1.5rem;
-    padding: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     font-family: 'Quicksand', sans-serif;
 }
 
 .derechos-de-autor{
     font-size: 15px;
+    padding: 10px;
 }
 
 /* Adaptable - Responsivo */
