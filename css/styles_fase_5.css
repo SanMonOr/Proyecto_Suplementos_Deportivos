@@ -91,7 +91,7 @@ img {
     height: auto;
 }
 
-img.imge-1{
+.imge-1{
     width: 100%;
     max-width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -99,7 +99,7 @@ img.imge-1{
     height: auto;
 }
 
-img.imge-2{
+.imge-2{
     width: 100%;
     max-width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -107,7 +107,7 @@ img.imge-2{
     height: auto;
 }
 
-img.vista-1{
+.vista-1{
     width: 100%;
     max-width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -115,7 +115,7 @@ img.vista-1{
     height: auto;
 }
 
-img.vista-2{
+.vista-2{
     width: 100%;
     max-width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -123,7 +123,7 @@ img.vista-2{
     height: auto;
 }
 
-img.controlador-1{
+.controlador-1{
     width: 100%;
     max-width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -131,7 +131,7 @@ img.controlador-1{
     height: auto;
 }
 
-img.controlador-2{
+.controlador-2{
     width: 100%;
     max-width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -162,14 +162,7 @@ h3.seccion-subtitulo2{
 }
 
 
-h3.catalogo{
-    margin-top: 30px;
-    color:#468494;
-    text-align: left;
-    font-weight: bold;
-}
-
-img.manejador_archivos{
+.manejador_archivos{
     margin-top: 30px;
     width: 100%;
     max-width: 100%;
@@ -186,7 +179,7 @@ h3.perfil{
 }
 
 
-img.c_panel-1{
+.c_panel-1{
     margin-top: 30px;
     width: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -195,7 +188,7 @@ img.c_panel-1{
 }
 
 
-img.despliegue-2{
+.despliegue-2{
     margin-top: 30px;
     width: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -205,7 +198,7 @@ img.despliegue-2{
 
 
 
-img.trello{
+.trello{
     margin-top: 30px;
     width: 100%;
     max-width: 100%;
@@ -214,7 +207,7 @@ img.trello{
     height: auto;
 }
 
-img.gitlab{
+.gitlab{
     margin-top: 30px;
     width: 100%;
     max-width: 100%;
