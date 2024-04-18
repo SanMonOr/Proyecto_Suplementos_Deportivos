@@ -1,0 +1,220 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat&family=Quicksand:wght@500&family=Rubik+Dirt&display=swap');
+
+/* Barra de navegacion */
+.navbar{
+    padding: 1rem;
+    background-color: #f5f6f7;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilos generales */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', cursive;
+    color: #468494;
+}
+
+.seccion-oscura{
+    color: white;
+    background-color: #468494;
+}
+
+
+
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 150px;
+    font-family: 'Rubik Dirt', cursive;
+    color: #468494;
+    text-transform: uppercase;
+}
+
+
+.seccion-descripcion{
+    font-size: 1.2rem;
+    color: #584e4e;
+
+}
+
+.seccion-texto{
+    font-size: 1.2rem;
+}
+
+ /*sesiones, roles y permisos */
+div.container.text-center{
+    margin-top: 20px;
+    margin: 20px;
+}
+
+h1.seccion-titulo{
+    padding: 20px;
+    margin-top: 100px;
+    border-bottom: 2px solid #468494;
+}
+
+h3.seccion-subtitulo{
+    margin-top: 50px;
+    color:#468494;
+    text-align: left;
+    font-weight: bold;
+}
+
+p.seccion-parrafo{
+    text-align: left;
+    border: 0.01px solid #d8e7ea;
+    padding: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+
+img.img-1{
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 150px; 
+    height: auto;
+}
+
+h5.creacion-usuarios{
+    margin-top: 50px;
+    color:#468494;
+    text-align: left;
+    font-weight: bold;
+    width: 1050px; 
+    height: auto;
+}
+
+
+ /*Interfaz grafica */
+h1.seccion-titulo2{
+    padding: 20px;
+    margin-top: 5px;
+    border-bottom: 2px solid #468494;
+}
+
+p.seccion-parrafo2{
+    text-align: left;
+    border: 0.01px solid #d8e7ea;
+    padding: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+
+h3.seccion-subtitulo2{
+    margin-top: 30px;
+    color:#468494;
+    text-align: left;
+    font-weight: bold;
+}
+
+img.alojamiento{
+    margin-top: 30px;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 1050px; 
+    height: auto;
+}
+
+h3.catalogo{
+    margin-top: 30px;
+    color:#468494;
+    text-align: left;
+    font-weight: bold;
+}
+
+img.manejador_archivos{
+    margin-top: 30px;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 1050px; 
+    height: auto;
+}
+
+h3.perfil{
+    margin-top: 30px;
+    color:#468494;
+    text-align: left;
+    font-weight: bold;
+}
+
+img.c_panel{
+    margin-top: 30px;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 900px; 
+    height: auto;
+}
+
+img.trello{
+    margin-top: 30px;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 1050px; 
+    height: auto;
+}
+
+img.gitlab{
+    margin-top: 30px;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 1050px; 
+    height: auto;
+}
+/*Fin de interfaz grafica*/
+
+
+
+
+
+
+
+
+/* Footer */
+footer{
+    min-height: 100px;
+}
+
+.footer-logo{
+    height: 60px;
+    width: 80px;
+    margin: 10px;
+}
+
+.footer-texto{
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.derechos-de-autor{
+    font-size: 15px;
+    padding: 10px;
+}
+
+/* Adaptable - Responsivo */
+@media screen and (max-width: 767px){
+    .navbar-brand{
+        display:none;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .hero-inferior-imagen {
+        max-width: 600px;
+    }
+}
