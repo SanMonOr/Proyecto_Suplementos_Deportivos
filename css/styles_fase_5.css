@@ -77,15 +77,29 @@ p.seccion-parrafo{
     border-radius: 10px;
 }
 
-img.img-1{
-    width: 100%;
-    max-width: 100%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    width: 300px; 
+h5.creacion-usuarios{
+    margin-top: 50px;
+    color:#468494;
+    text-align: left;
+    font-weight: bold;
+    width: 1050px; 
     height: auto;
 }
 
-img.img-2{
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img.imge-1{
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 250px; 
+    height: auto;
+}
+
+img.imge-2{
     width: 100%;
     max-width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -97,7 +111,7 @@ img.vista-1{
     width: 100%;
     max-width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    width: 500px; 
+    width: 350px; 
     height: auto;
 }
 
@@ -109,15 +123,21 @@ img.vista-2{
     height: auto;
 }
 
-h5.creacion-usuarios{
-    margin-top: 50px;
-    color:#468494;
-    text-align: left;
-    font-weight: bold;
-    width: 1050px; 
+img.controlador-1{
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 350px; 
     height: auto;
 }
 
+img.controlador-2{
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 750px; 
+    height: auto;
+}
 
  /*Interfaz grafica */
 h1.seccion-titulo2{
@@ -141,14 +161,6 @@ h3.seccion-subtitulo2{
     font-weight: bold;
 }
 
-img.alojamiento{
-    margin-top: 30px;
-    width: 100%;
-    max-width: 100%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    width: 1050px; 
-    height: auto;
-}
 
 h3.catalogo{
     margin-top: 30px;
@@ -173,23 +185,25 @@ h3.perfil{
     font-weight: bold;
 }
 
+
 img.c_panel-1{
     margin-top: 30px;
     width: 50%;
-    max-width: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    width: 1500px; 
+    width: 900px; 
     height: auto;
 }
+
 
 img.despliegue-2{
     margin-top: 30px;
     width: 50%;
-    max-width: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    width: 1050px; 
+    width: 900px; 
     height: auto;
 }
+
+
 
 img.trello{
     margin-top: 30px;
