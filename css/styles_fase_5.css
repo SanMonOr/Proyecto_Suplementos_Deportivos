@@ -81,7 +81,31 @@ img.img-1{
     width: 100%;
     max-width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    width: 150px; 
+    width: 300px; 
+    height: auto;
+}
+
+img.img-2{
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 700px; 
+    height: auto;
+}
+
+img.vista-1{
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 500px; 
+    height: auto;
+}
+
+img.vista-2{
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 700px; 
     height: auto;
 }
 
@@ -149,12 +173,21 @@ h3.perfil{
     font-weight: bold;
 }
 
-img.c_panel{
+img.c_panel-1{
     margin-top: 30px;
-    width: 100%;
-    max-width: 100%;
+    width: 50%;
+    max-width: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    width: 900px; 
+    width: 1500px; 
+    height: auto;
+}
+
+img.despliegue-2{
+    margin-top: 30px;
+    width: 50%;
+    max-width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 1050px; 
     height: auto;
 }
 
